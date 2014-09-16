@@ -13,10 +13,10 @@
 @end
 
 @implementation ViewController
-
+@synthesize testButton = _testButton;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"test");
+    [self.testButton setTitle:@"zxc" forState:<#(UIControlState)#>]
 }
 
 - (void)didReceiveMemoryWarning {
